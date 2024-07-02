@@ -65,7 +65,7 @@ def user_input():
 df = user_input()
 
 st.subheader("Your Health Metrics :clipboard:")
-st.write(df.style.format("{:.2f}").background_gradient(cmap='viridis'))
+st.write(df.style.format("{:.2f}"))
 
 # Train the model
 clf = RandomForestClassifier()
