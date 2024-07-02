@@ -23,7 +23,7 @@ st.dataframe(data.style.highlight_max(axis=0))
 
 # Display statistical information
 st.subheader("Statistical Overview :bar_chart:")
-st.write(data.describe().style.format("{:.2f}").background_gradient(cmap='viridis'))
+st.write(data.describe().style.format("{:.2f}"))
 
 # Data visualization
 st.subheader("Visual Data Insights :chart_with_upwards_trend:")
