@@ -35,7 +35,7 @@ The model created as a result of XGBoost hyperparameter optimization achieved th
 
 ## Demo
 
-Check out the demo of the application [here](google.com).
+Check out the demo of the application [here](https://christianthomasbadolo-diabete-prediction.streamlit.app/).
 
 ## Skills Demonstrated
 
